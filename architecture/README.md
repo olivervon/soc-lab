@@ -17,3 +17,7 @@ This network design allows:
 - Controlled east-west traffic between hosts
 - Safe attack simulation without internet exposure
 - Realistic alert generation for Tier 1 and Tier 2 SOC workflows
+
+---
+**Next step:**  
+Proceed to [Setup – SOC Analyst VM](../setup/README.md)
