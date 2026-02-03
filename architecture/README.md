@@ -9,8 +9,8 @@ The lab uses a single internal Hyper-V virtual switch to simulate an isolated en
 ### Virtual Switch Creation
 An internal virtual switch named `SOC-Lab-Internal` was created to isolate the SOC lab environment while allowing controlled communication between lab systems.
 
-![Virtual Switch Manager](../screenshots/architecture/03-virtual-switch-manager.jpg)
-![SOC-Lab-Internal created](../screenshots/architecture/04-soc-lab-internal-created.jpg)
+![Virtual Switch Manager](soc-lab/screenshots/architecture/03-virtual-switch-manager.jpg)
+![SOC-Lab-Internal created](soc-lab/screenshots/architecture/04-soc-lab-internal-created.jpg)
 
 ### Why This Matters for SOC
 This network design allows:
