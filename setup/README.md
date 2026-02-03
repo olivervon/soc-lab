@@ -54,3 +54,18 @@ This confirms that I stay within Free Trial limits.
 
 The Log Analytics Workspace is ready and prepared for Microsoft Sentinel in the next step.  
 No logs are ingested yet and no costs are generated.
+
+### Microsoft Sentinel activation
+
+Microsoft Sentinel was enabled on the existing Log Analytics Workspace to prepare the SIEM layer of the SOC lab.
+
+At this stage, Sentinel is active but no data sources are connected.  
+This is an intentional state to verify the SIEM setup before enabling log ingestion.
+
+![Microsoft Sentinel overview](../screenshots/setup/05-sentinel-overview-empty.PNG)
+
+---
+
+### Sentinel analyst view
+
+The Sentinel interface was reviewed to confirm access to core analyst features such as incidents, logs, and data connectors.
