@@ -1,4 +1,4 @@
-## Step 1 – Hyper-V Network Design
+## Step 1 - Hyper-V Network Design
 
 ### Objective
 Design a simple but realistic network layout for the SOC lab to support monitoring, detection, and investigation activities.
