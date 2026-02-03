@@ -30,7 +30,7 @@ A dedicated Log Analytics Workspace is used as the central location for security
 I used a dedicated resource group and chose Sweden Central as region.  
 Log ingestion is intentionally not enabled yet to avoid any cost during the Azure Free Trial.
 
-#### Workspace overview
+### Workspace overview
 
 Here is the workspace overview right after creation:
 
@@ -38,7 +38,7 @@ Here is the workspace overview right after creation:
 
 This shows the workspace name, resource group and region.
 
-#### Cost validation
+### Cost validation
 
 I verified the workspace usage immediately after creation to ensure that no logs are being ingested and that the estimated cost remains zero.
 
@@ -50,7 +50,7 @@ At this stage the workspace shows:
 
 This confirms that I stay within Free Trial limits.
 
-#### Current status
+### Current status
 
 The Log Analytics Workspace is ready and prepared for Microsoft Sentinel in the next step.  
 No logs are ingested yet and no costs are generated.
