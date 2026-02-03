@@ -84,6 +84,8 @@ Azure Activity Logs were connected to the Log Analytics Workspace using Azure Mo
 - All standard Activity Log categories enabled
 - Logs forwarded to the SOC lab Log Analytics Workspace
 
+![Azure Activity diagnostic setting connected](../screenshots/setup/06-send-activity-to-sentinel.PNG)
+
 ---
 
 ### Verification and troubleshooting
