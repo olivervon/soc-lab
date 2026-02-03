@@ -69,3 +69,37 @@ This is an intentional state to verify the SIEM setup before enabling log ingest
 ### Sentinel analyst view
 
 The Sentinel interface was reviewed to confirm access to core analyst features such as incidents, logs, and data connectors.
+
+## Step 2.3: Azure Activity Logs (initial ingestion)
+
+In this step I configured Azure Activity Logs as the first data source for the SOC lab SIEM.
+
+Azure Activity Logs were selected to provide visibility into subscription-level administrative actions such as resource creation, deletion, and configuration changes.
+
+### Configuration
+
+Azure Activity Logs were connected to the Log Analytics Workspace using Azure Monitor diagnostic settings.
+
+- Diagnostic setting created at subscription level
+- All standard Activity Log categories enabled
+- Logs forwarded to the SOC lab Log Analytics Workspace
+
+---
+
+### Verification and troubleshooting
+
+After configuration, multiple controlled subscription-level activities were generated to validate log ingestion.
+
+During the verification window, no Azure Activity events were observed in the workspace.  
+This was identified as initial ingestion latency in a newly created Azure Free Trial tenant.
+
+The diagnostic configuration was validated and left in place for future ingestion.
+
+---
+
+### Current status
+
+Azure Activity Logs are correctly configured and connected.  
+Log ingestion is pending and expected to become available after initial platform latency.
+
+The SOC lab setup continues with alternative telemetry sources to ensure reliable data ingestion.
