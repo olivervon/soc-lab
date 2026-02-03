@@ -24,10 +24,10 @@ SOC analysts typically work from client systems while the SIEM runs in the cloud
 
 ## Step 2.2: Create Log Analytics Workspace
 
-In this step we set up the logging backend for our SOC lab SIEM.  
+In this step I set up the logging backend for my SOC lab SIEM.  
 A dedicated Log Analytics Workspace is used as the central location for security telemetry.
 
-We used a dedicated resource group and chose Sweden Central as region.  
+I used a dedicated resource group and chose Sweden Central as region.  
 Log ingestion is intentionally not enabled yet to avoid any cost during the Azure Free Trial.
 
 #### Workspace overview
@@ -40,7 +40,7 @@ This shows the workspace name, resource group and region.
 
 #### Cost validation
 
-We verified the workspace usage immediately after creation to ensure that no logs are being ingested and that the estimated cost remains zero.
+I verified the workspace usage immediately after creation to ensure that no logs are being ingested and that the estimated cost remains zero.
 
 ![Usage and estimated costs](../screenshots/setup/04-law-usage-zero.PNG)
 
@@ -48,7 +48,7 @@ At this stage the workspace shows:
 - 0 GB ingested
 - Estimated cost 0 USD
 
-This confirms that we stay within Free Trial limits.
+This confirms that I stay within Free Trial limits.
 
 #### Current status
 
